@@ -7,12 +7,22 @@
     <style>
         .svg-container {
             border: 1px solid #ddd;
-            margin: 20px;
+            width: 100%; 
+            height: auto; 
+            max-width: 100%; 
+            overflow-x: auto; 
+            box-sizing: border-box; 
+        }
+
+        svg {
+            width: 100%; 
+            height: auto; 
+            display: block; 
         }
     </style>
 </head>
 <body>
     <div class="svg-container" id="calendar-svg"></div>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
